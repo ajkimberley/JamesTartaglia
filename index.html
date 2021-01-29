@@ -23,38 +23,40 @@
 
 <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light-grey p-4 fs-5">
-        <a class="navbar-brand fw-bold fs-2" href="#">James Tartaglia</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav w-75 justify-content-around">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <span class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Jazz
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Albums</a>
-                        <a class="dropdown-item" href="#">Recordings</a>
-                        <a class="dropdown-item" href="#">Reviews</a>
-                    </div>
-                </span>
-                <span class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Philosophy
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Books</a>
-                        <a class="dropdown-item" href="#">Papers</a>
-                        <a class="dropdown-item" href="#"></a>
-                    </div>
-                </span>
-                <a class="nav-item nav-link" href="#">Contact</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light-transparent p-4 fs-5">
+        <div class="container-fluid justify-content-end">
+            <a class="navbar-brand fw-bold fs-2" href="#">James Tartaglia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
+                aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
+                <div class="navbar-nav w-75 justify-content-between">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <span class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Jazz
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Albums</a>
+                            <a class="dropdown-item" href="#">Recordings</a>
+                            <a class="dropdown-item" href="#">Reviews</a>
+                        </div>
+                    </span>
+                    <span class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Philosophy
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Books</a>
+                            <a class="dropdown-item" href="#">Papers</a>
+                            <a class="dropdown-item" href="#">Resaerch</a>
+                        </div>
+                    </span>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                </div>
             </div>
     </nav>
 
@@ -79,7 +81,8 @@
                         thanks for visiting!
                     </p>
                     <div class="btn-group d-flex flex-column flex-md-row justify-content-around">
-                        <button type="button" class="btn btn-dark-grey w-25" data-animation="fadeInLeft" data-delay=".8s">Jazz</button>
+                        <button type="button" class="btn btn-dark-grey w-25" data-animation="fadeInLeft"
+                            data-delay=".8s">Jazz</button>
                         <button type="button" class="btn btn-dark-grey w-25">Jazz-Philosophy Fusion</button>
                         <button type="button" class="btn btn-dark-grey w-25">Philosophy</button>
                     </div>
@@ -90,10 +93,8 @@
 
     <!-- Scripts -->
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
