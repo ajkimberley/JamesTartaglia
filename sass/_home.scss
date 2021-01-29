@@ -1,27 +1,32 @@
+body {
+    margin-top: 106px;
+}
+
 body,
 html {
     height: 100%;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
         "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: $theme-color-9;
 }
 
-.jumbotron {
+.banner {
     background: radial-gradient(
-            ellipse at center,
-            rgba(0, 0, 0, 0.25) 15%,
-            rgba(0, 0, 0, 0.5) 37%,
-            rgba(0, 0, 0, 1) 100%
-        ),
-        url("../img/Space-Time.png  ") no-repeat center center scroll;
+        ellipse at center,
+        rgba(0, 0, 0, 0.25) 15%,
+        rgba(0, 0, 0, 0.5) 37%,
+        rgba(0, 0, 0, 1) 100%
+    ),
+    url("../img/banner.png  ") no-repeat center center scroll;
     background-repeat: no-repeat;
-    margin-top: -106px;
-    z-index: -1;
+    min-height: 500px;
 }
 
 .jumbotron-content {
-    background-color: rgb(0, 0, 0); /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.6); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-    border: 2px solid $light-grey;
+}
+
+.gap { // for testing purposes
+    height: 5000px;
 }

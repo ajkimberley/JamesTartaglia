@@ -23,7 +23,7 @@
 
 <body>
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-light-transparent p-4 fs-5">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light-grey p-4 fs-5">
         <div class="container-fluid justify-content-end">
             <a class="navbar-brand fw-bold fs-2" href="#">James Tartaglia</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
@@ -60,17 +60,50 @@
             </div>
     </nav>
 
-    <!-- Jumbotron -->
-    <div class="d-flex vh-100 align-items-center jumbotron">
-        <div class="p-5 jumbotron-content rounded container-xl">
+    <!-- Separator -->
+    <div class="container-fluid banner"></div>
+
+    <div class="p-5 jumbotron-content rounded container-fluid">
+        <div class="row justify-content-around align-items-center flex-row-reverse">
+            <div class="col-md-3">
+                <img src="img/JamesTartagliaPortraitSmall.png" alt="James Tartaglia" class="rounded" />
+            </div>
+            <div class="col-md-7">
+                <h1 class="text-black text-end display-5">I'm Philosopher and Jazz Musician James
+                    Tartaglia</h1>
+                <p class="text-black fw-normal text-end align-self-center mt-3">
+                    Welcome to my website. I'm a British philosopher, at <a
+                        href="https://www.keele.ac.uk/spgs/staff/tartaglia/" target="_blank">Keele
+                        University</a>, who tries to write original philosophy book s that might
+                    interest both the general public and professionals. I'm also a jazz musician who
+                    makes Jazz-Philosophy Fusion. My main books are published by Bloomsbury:
+                    <i>Philosophy in a Meaningless Life</i> (2016) and <i>Philosophy in a Technological
+                        World: GODS AND TITANS</i> (2020). I hope you find something of interest –
+                    thanks for visiting!
+                </p>
+                <div class="btn-group d-flex flex-column flex-md-row justify-content-around">
+                    <button type="button" class="btn btn-outline-primary w-25" data-animation="fadeInLeft"
+                        data-delay=".8s">Jazz</button>
+                    <button type="button" class="btn btn-outline-primary w-25">Jazz-Philosophy Fusion</button>
+                    <button type="button" class="btn btn-outline-primary w-25">Philosophy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gap container-fluid">
+
+    </div>
+    <div class="container-fluid">
+        <div class="p-5 jumbotron-content rounded container-fluid">
             <div class="row justify-content-around align-items-center flex-row-reverse">
                 <div class="col-md-3">
                     <img src="img/JamesTartagliaPortraitSmall.png" alt="James Tartaglia" class="rounded" />
                 </div>
                 <div class="col-md-7">
-                    <h1 class="text-light-grey text-end display-5">I'm Philosopher and Jazz Musician James
+                    <h1 class="text-black text-end display-5">I'm Philosopher and Jazz Musician James
                         Tartaglia</h1>
-                    <p class="text-light-grey fw-normal text-end align-self-center mt-3">
+                    <p class="text-black fw-normal text-end align-self-center mt-3">
                         Welcome to my website. I'm a British philosopher, at <a
                             href="https://www.keele.ac.uk/spgs/staff/tartaglia/" target="_blank">Keele
                             University</a>, who tries to write original philosophy book s that might
@@ -81,14 +114,17 @@
                         thanks for visiting!
                     </p>
                     <div class="btn-group d-flex flex-column flex-md-row justify-content-around">
-                        <button type="button" class="btn btn-dark-grey w-25" data-animation="fadeInLeft"
+                        <button type="button" class="btn btn-outline-primary w-25" data-animation="fadeInLeft"
                             data-delay=".8s">Jazz</button>
-                        <button type="button" class="btn btn-dark-grey w-25">Jazz-Philosophy Fusion</button>
-                        <button type="button" class="btn btn-dark-grey w-25">Philosophy</button>
+                        <button type="button" class="btn btn-outline-primary w-25">Jazz-Philosophy Fusion</button>
+                        <button type="button" class="btn btn-outline-primary w-25">Philosophy</button>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="gap container-fluid">
+
     </div>
 
     <!-- Scripts -->

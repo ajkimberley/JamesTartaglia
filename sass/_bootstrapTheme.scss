@@ -3,26 +3,30 @@
 @import '../node_modules/bootstrap/scss/mixins';
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
+@import 'colors';
 
-$primary: #db2321;
-$secondary:#e0ce26;
-$accent: #e77b16;
-$dark-grey: #2F262B;
-$light-grey: #D8CDC9;
-$black: #131017;
+$primary: $theme-color-1;
+$secondary:$theme-color-4;
+$accent: $theme-color-8;
+$light-grey: $theme-color-9;
+$black: $theme-color-7;
 
-
-// Create your own map
 $custom-colors: (
   "primary": $primary,
   "secondary": $secondary,
   "accent": $accent,
-  "dark-grey": $dark-grey,
   "light-grey": $light-grey,
-  "black": $black
+  "black": $black,
+  "theme-1": $theme-color-1,
+  "theme-2": $theme-color-2,
+  "theme-3": $theme-color-3,
+  "theme-4": $theme-color-4,
+  "theme-5": $theme-color-5,
+  "theme-6": $theme-color-6,
+  "theme-7": $theme-color-7,
+  "theme-8": $theme-color-8,
+  "theme-9": $theme-color-9,
 );
-
-// Merge the maps
 $theme-colors: map.merge($theme-colors, $custom-colors);
 
 @import '../node_modules/bootstrap/scss/bootstrap';
