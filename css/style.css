@@ -11011,16 +11011,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body, html {
+body,
+html {
   height: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .jumbotron {
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 15%, rgba(0, 0, 0, 0.5) 37%, black 100%), url("../img/Space-Time.png  ") no-repeat center center scroll;
   background-repeat: no-repeat;
-  height: 100%;
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  margin-top: -106px;
+  z-index: -1;
 }
 
 .jumbotron-content {
@@ -11031,10 +11032,6 @@ body, html {
   color: white;
   font-weight: bold;
   border: 2px solid #D8CDC9;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=style.css.map */
