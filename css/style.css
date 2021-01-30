@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Rufina:wght@400;700&display=swap");
 /* ---------- Theme Colours ---------- */
 /*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
@@ -30,6 +31,7 @@
   --bs-dark: #212529;
   --bs-accent: #619CA2;
   --bs-light-grey: #E4E3E2;
+  --bs-dark-grey: #C3C3C1;
   --bs-black: #22201D;
   --bs-theme-1: #E74533;
   --bs-theme-2: #D25753;
@@ -3174,6 +3176,36 @@ textarea.form-control-lg {
   border-color: #E4E3E2;
 }
 
+.btn-dark-grey {
+  color: #000;
+  background-color: #C3C3C1;
+  border-color: #C3C3C1;
+}
+.btn-dark-grey:hover {
+  color: #000;
+  background-color: #ccccca;
+  border-color: #c9c9c7;
+}
+.btn-check:focus + .btn-dark-grey, .btn-dark-grey:focus {
+  color: #000;
+  background-color: #ccccca;
+  border-color: #c9c9c7;
+  box-shadow: 0 0 0 0.25rem rgba(166, 166, 164, 0.5);
+}
+.btn-check:checked + .btn-dark-grey, .btn-check:active + .btn-dark-grey, .btn-dark-grey:active, .btn-dark-grey.active, .show > .btn-dark-grey.dropdown-toggle {
+  color: #000;
+  background-color: #cfcfcd;
+  border-color: #c9c9c7;
+}
+.btn-check:checked + .btn-dark-grey:focus, .btn-check:active + .btn-dark-grey:focus, .btn-dark-grey:active:focus, .btn-dark-grey.active:focus, .show > .btn-dark-grey.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(166, 166, 164, 0.5);
+}
+.btn-dark-grey:disabled, .btn-dark-grey.disabled {
+  color: #000;
+  background-color: #C3C3C1;
+  border-color: #C3C3C1;
+}
+
 .btn-black {
   color: #fff;
   background-color: #22201D;
@@ -3721,6 +3753,31 @@ textarea.form-control-lg {
 }
 .btn-outline-light-grey:disabled, .btn-outline-light-grey.disabled {
   color: #E4E3E2;
+  background-color: transparent;
+}
+
+.btn-outline-dark-grey {
+  color: #C3C3C1;
+  border-color: #C3C3C1;
+}
+.btn-outline-dark-grey:hover {
+  color: #000;
+  background-color: #C3C3C1;
+  border-color: #C3C3C1;
+}
+.btn-check:focus + .btn-outline-dark-grey, .btn-outline-dark-grey:focus {
+  box-shadow: 0 0 0 0.25rem rgba(195, 195, 193, 0.5);
+}
+.btn-check:checked + .btn-outline-dark-grey, .btn-check:active + .btn-outline-dark-grey, .btn-outline-dark-grey:active, .btn-outline-dark-grey.active, .btn-outline-dark-grey.dropdown-toggle.show {
+  color: #000;
+  background-color: #C3C3C1;
+  border-color: #C3C3C1;
+}
+.btn-check:checked + .btn-outline-dark-grey:focus, .btn-check:active + .btn-outline-dark-grey:focus, .btn-outline-dark-grey:active:focus, .btn-outline-dark-grey.active:focus, .btn-outline-dark-grey.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 0.25rem rgba(195, 195, 193, 0.5);
+}
+.btn-outline-dark-grey:disabled, .btn-outline-dark-grey.disabled {
+  color: #C3C3C1;
   background-color: transparent;
 }
 
@@ -5285,6 +5342,15 @@ textarea.form-control-lg {
   color: #494948;
 }
 
+.alert-dark-grey {
+  color: #4e4e4d;
+  background-color: #f3f3f3;
+  border-color: #ededec;
+}
+.alert-dark-grey .alert-link {
+  color: #3e3e3e;
+}
+
 .alert-black {
   color: #141311;
   background-color: #d3d2d2;
@@ -5770,6 +5836,20 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #5b5b5a;
   border-color: #5b5b5a;
+}
+
+.list-group-item-dark-grey {
+  color: #4e4e4d;
+  background-color: #f3f3f3;
+}
+.list-group-item-dark-grey.list-group-item-action:hover, .list-group-item-dark-grey.list-group-item-action:focus {
+  color: #4e4e4d;
+  background-color: #dbdbdb;
+}
+.list-group-item-dark-grey.list-group-item-action.active {
+  color: #fff;
+  background-color: #4e4e4d;
+  border-color: #4e4e4d;
 }
 
 .list-group-item-black {
@@ -6861,6 +6941,13 @@ textarea.form-control-lg {
   color: #e9e9e8;
 }
 
+.link-dark-grey {
+  color: #C3C3C1;
+}
+.link-dark-grey:hover, .link-dark-grey:focus {
+  color: #cfcfcd;
+}
+
 .link-black {
   color: #22201D;
 }
@@ -7316,6 +7403,10 @@ textarea.form-control-lg {
 
 .border-light-grey {
   border-color: #E4E3E2 !important;
+}
+
+.border-dark-grey {
+  border-color: #C3C3C1 !important;
 }
 
 .border-black {
@@ -8152,6 +8243,10 @@ textarea.form-control-lg {
   color: #E4E3E2 !important;
 }
 
+.text-dark-grey {
+  color: #C3C3C1 !important;
+}
+
 .text-black {
   color: #22201D !important;
 }
@@ -8270,6 +8365,10 @@ textarea.form-control-lg {
 
 .bg-light-grey {
   background-color: #E4E3E2 !important;
+}
+
+.bg-dark-grey {
+  background-color: #C3C3C1 !important;
 }
 
 .bg-black {
@@ -11803,8 +11902,24 @@ body {
 body,
 html {
   height: 100%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #E4E3E2;
+}
+
+h1, .h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  font-family: "Rufina", serif;
+}
+
+.btn {
+  border-radius: 56px;
 }
 
 .banner {
@@ -11820,6 +11935,114 @@ html {
 
 .gap {
   height: 5000px;
+}
+
+.cards-area .single-card {
+  border: 1px solid #e1ebf7;
+  border-radius: 6px;
+  padding: 61px 22px;
+  transition: 0.4s;
+  position: relative;
+  z-index: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cards-area .single-card {
+    transition: none;
+  }
+}
+.cards-area .single-card::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  background: #619CA2;
+  transition: 0.6s;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 6px;
+}
+.cards-area .single-card .card-icon span {
+  color: #E74533;
+  font-size: 50px;
+  margin-bottom: 30px;
+  display: block;
+  margin-bottom: 50px;
+  width: 100px;
+  height: 100px;
+  background: #fff4f4;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 50px;
+  display: inline-block;
+}
+.cards-area .single-card .card-cap h5 > a, .cards-area .single-card .card-cap .h5 > a {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  display: block;
+  transition: 0.2s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cards-area .single-card .card-cap h5 > a, .cards-area .single-card .card-cap .h5 > a {
+    transition: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .cards-area .single-card .card-cap h5 > a, .cards-area .single-card .card-cap .h5 > a {
+    font-size: 21px;
+  }
+}
+@media (max-width: 575px) {
+  .cards-area .single-card .card-cap h5 > a, .cards-area .single-card .card-cap .h5 > a {
+    font-size: 21px;
+  }
+}
+.cards-area .single-card .card-cap p {
+  margin-bottom: 36px;
+  color: #57667e;
+  font-size: 16px;
+  transition: 0.2s;
+  margin: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cards-area .single-card .card-cap p {
+    transition: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .cards-area .single-card .card-cap p {
+    font-size: 15px;
+  }
+}
+.cards-area .single-card .card-cap a {
+  color: #1c165c;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cards-area .single-card .card-cap a {
+    transition: none;
+  }
+}
+.cards-area .single-card:hover {
+  border: 1px solid transparent;
+}
+.cards-area .single-card:hover::before {
+  height: 100%;
+}
+.cards-area .single-card:hover .card-icon span {
+  background: #fff;
+}
+.cards-area .single-card:hover .card-cap h5, .cards-area .single-card:hover .card-cap .h5 {
+  color: #fff;
+}
+.cards-area .single-card:hover .card-cap p {
+  color: #fff;
+}
+.cards-area .single-card:hover .card-cap a {
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

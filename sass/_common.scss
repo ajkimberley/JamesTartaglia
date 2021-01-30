@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rufina:wght@400;700&display=swap');
+
+body {
+    margin-top: 106px;
+}
+
+body,
+html {
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: $theme-color-9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Rufina', serif;
+}
+
+.btn {
+    border-radius: 56px;
+}

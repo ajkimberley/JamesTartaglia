@@ -14,15 +14,16 @@
 
     <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
-    <!-- Place favicon.ico in the root directory -->
+
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="font/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
 
     <meta name="theme-color" content="#fafafa" />
 </head>
 
 <body>
-    <!-- Header -->
+    <!-- Header/Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light-grey p-4 fs-5">
         <div class="container-fluid justify-content-end">
             <a class="navbar-brand fw-bold fs-2" href="#">James Tartaglia</a>
@@ -60,20 +61,22 @@
             </div>
     </nav>
 
-    <!-- Separator -->
+    <!-- Banner -->
     <div class="container-fluid banner"></div>
 
-    <div class="p-5 jumbotron-content rounded container-fluid">
-        <div class="row justify-content-around align-items-center flex-row-reverse">
-            <div class="col-md-3">
-                <img src="img/JamesTartagliaPortraitSmall.png" alt="James Tartaglia" class="rounded" />
+    <!-- Introduction -->
+    <div class="p-5 jumbotron-content rounded container-fluid bg-dark-grey">
+        <div class="row justify-content-end align-items-start flex-row-reverse">
+            <div class="col-md-4">
+                <img src="img/james_jazz.jpg" alt="James Tartaglia" class="rounded img-fluid" />
             </div>
-            <div class="col-md-7">
-                <h1 class="text-black text-end display-5">I'm Philosopher and Jazz Musician James
-                    Tartaglia</h1>
-                <p class="text-black fw-normal text-end align-self-center mt-3">
+            <div class="col-md-1"></div>
+            <div class="col-md-3 justify-content-center">
+                <h2 class="text-black">I'm James Tartaglia,</h2>
+                <h3 class="text-light-grey">Philosopher and Jazz Musician</h3>
+                <p class="text-black fw-normal align-self-center mt-3">
                     Welcome to my website. I'm a British philosopher, at <a
-                        href="https://www.keele.ac.uk/spgs/staff/tartaglia/" target="_blank">Keele
+                        href="https://www.keele.ac.uk/spgs/staff/tartaglia/" target="_blank" class="text-black">Keele
                         University</a>, who tries to write original philosophy book s that might
                     interest both the general public and professionals. I'm also a jazz musician who
                     makes Jazz-Philosophy Fusion. My main books are published by Bloomsbury:
@@ -81,51 +84,68 @@
                         World: GODS AND TITANS</i> (2020). I hope you find something of interest –
                     thanks for visiting!
                 </p>
-                <div class="btn-group d-flex flex-column flex-md-row justify-content-around">
-                    <button type="button" class="btn btn-outline-primary w-25" data-animation="fadeInLeft"
-                        data-delay=".8s">Jazz</button>
-                    <button type="button" class="btn btn-outline-primary w-25">Jazz-Philosophy Fusion</button>
-                    <button type="button" class="btn btn-outline-primary w-25">Philosophy</button>
-                </div>
             </div>
+            <div class="col-md-1"></div>
         </div>
     </div>
 
-    <div class="gap container-fluid">
-
-    </div>
-    <div class="container-fluid">
-        <div class="p-5 jumbotron-content rounded container-fluid">
-            <div class="row justify-content-around align-items-center flex-row-reverse">
-                <div class="col-md-3">
-                    <img src="img/JamesTartagliaPortraitSmall.png" alt="James Tartaglia" class="rounded" />
+    <!-- Cards Area Start -->
+    <section class="cards-area section-padding3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <!-- Section Tittle -->
                 </div>
-                <div class="col-md-7">
-                    <h1 class="text-black text-end display-5">I'm Philosopher and Jazz Musician James
-                        Tartaglia</h1>
-                    <p class="text-black fw-normal text-end align-self-center mt-3">
-                        Welcome to my website. I'm a British philosopher, at <a
-                            href="https://www.keele.ac.uk/spgs/staff/tartaglia/" target="_blank">Keele
-                            University</a>, who tries to write original philosophy book s that might
-                        interest both the general public and professionals. I'm also a jazz musician who
-                        makes Jazz-Philosophy Fusion. My main books are published by Bloomsbury:
-                        <i>Philosophy in a Meaningless Life</i> (2016) and <i>Philosophy in a Technological
-                            World: GODS AND TITANS</i> (2020). I hope you find something of interest –
-                        thanks for visiting!
-                    </p>
-                    <div class="btn-group d-flex flex-column flex-md-row justify-content-around">
-                        <button type="button" class="btn btn-outline-primary w-25" data-animation="fadeInLeft"
-                            data-delay=".8s">Jazz</button>
-                        <button type="button" class="btn btn-outline-primary w-25">Jazz-Philosophy Fusion</button>
-                        <button type="button" class="btn btn-outline-primary w-25">Philosophy</button>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-card text-center mb-50">
+                        <div class="card-icon">
+                            <span class="flaticon-saxophone text-black"></span>
+                        </div>
+                        <div class="card-cap">
+                            <h5><a href="#">Jazz</a></h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt erat eu quam
+                                tempor, quis fermentum ligula interdum. Aenean euismod lorem nec diam tincidunt
+                                dignissim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-card text-center mb-50">
+                        <div class="card-icon">
+                            <span class="flaticon-philosophy text-black"></span>
+                        </div>
+                        <div class="card-cap">
+                            <h5><a href="#">Philosophy</a></h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt erat eu quam
+                                tempor, quis fermentum ligula interdum. Aenean euismod lorem nec diam tincidunt
+                                dignissim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-card text-center mb-50">
+                        <div class="card-icon">
+                            <span class="flaticon-fusion text-black"></span>
+                        </div>
+                        <div class="card-cap">
+                            <h5><a href="#">Fusion</a></h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt erat eu quam
+                                tempor, quis fermentum ligula interdum. Aenean euismod lorem nec diam tincidunt
+                                dignissim.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="gap container-fluid">
-
-    </div>
+    </section>
 
     <!-- Scripts -->
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
