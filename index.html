@@ -26,24 +26,25 @@
     <!-- Header/Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light-grey p-4 fs-5">
         <div class="container-fluid justify-content-end">
-            <a class="navbar-brand fw-bold fs-2" href="#">James Tartaglia</a>
+            <a class="navbar-brand fw-bold fs-2 text-black slide-from-left" href="#">James Tartaglia
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar"
                 aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
-                <div class="navbar-nav w-75 justify-content-between">
+                <div class="navbar-nav w-75 justify-content-end slide-from-right">
                     <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                     <span class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Jazz
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Albums</a>
-                            <a class="dropdown-item" href="#">Recordings</a>
-                            <a class="dropdown-item" href="#">Reviews</a>
-                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a href="#" class="dropdown-item">Albums</a></li>
+                            <li><a href="#" class="dropdown-item">Recordings</a></li>
+                            <li><a href="#" class="dropdown-item">Reviews</a></li>
+                        </ul>
                     </span>
                     <span class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -64,44 +65,39 @@
     <!-- Banner -->
     <div class="container-fluid banner"></div>
 
-    <!-- Introduction -->
-    <div class="p-5 jumbotron-content rounded container-fluid bg-dark-grey">
-        <div class="row justify-content-end align-items-start flex-row-reverse">
+    <!-- Section: Introduction -->
+    <section class="section-padding container-fluid bg-light-grey">
+        <div class="row justify-content-center align-items-start flex-row-reverse">
             <div class="col-md-4">
                 <img src="img/james_jazz.jpg" alt="James Tartaglia" class="rounded img-fluid" />
             </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-3 justify-content-center">
-                <h2 class="text-black">I'm James Tartaglia,</h2>
-                <h3 class="text-light-grey">Philosopher and Jazz Musician</h3>
-                <p class="text-black fw-normal align-self-center mt-3">
+            <div class="col-md-5 d-flex flex-column align-items-start px-5">
+                <h2 class="text-dark-blue">I'm James Tartaglia,</h2>
+                <h3 class="text-white">Philosopher and Jazz Musician</h3>
+                <p class="text-pale-blue fw-normal align-self-center mt-4">
                     Welcome to my website. I'm a British philosopher, at <a
                         href="https://www.keele.ac.uk/spgs/staff/tartaglia/" target="_blank" class="text-black">Keele
                         University</a>, who tries to write original philosophy book s that might
                     interest both the general public and professionals. I'm also a jazz musician who
                     makes Jazz-Philosophy Fusion. My main books are published by Bloomsbury:
                     <i>Philosophy in a Meaningless Life</i> (2016) and <i>Philosophy in a Technological
-                        World: GODS AND TITANS</i> (2020). I hope you find something of interest –
-                    thanks for visiting!
+                        World: GODS AND TITANS</i> (2020). I hope you find something of interest.
                 </p>
+                <aside>
+                    <h4 class="dark-blue">Thanks for visiting!</h4>
+                </aside>
             </div>
-            <div class="col-md-1"></div>
         </div>
-    </div>
+    </section>
 
     <!-- Cards Area Start -->
-    <section class="cards-area section-padding3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <!-- Section Tittle -->
-                </div>
-            </div>
+    <section class="section-padding bg-dark-grey">
+        <div class="container cards-area">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-card text-center mb-50">
                         <div class="card-icon">
-                            <span class="flaticon-saxophone text-black"></span>
+                            <span class="flaticon-saxophone"></span>
                         </div>
                         <div class="card-cap">
                             <h5><a href="#">Jazz</a></h5>
@@ -116,22 +112,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-card text-center mb-50">
                         <div class="card-icon">
-                            <span class="flaticon-philosophy text-black"></span>
-                        </div>
-                        <div class="card-cap">
-                            <h5><a href="#">Philosophy</a></h5>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt erat eu quam
-                                tempor, quis fermentum ligula interdum. Aenean euismod lorem nec diam tincidunt
-                                dignissim.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-card text-center mb-50">
-                        <div class="card-icon">
-                            <span class="flaticon-fusion text-black"></span>
+                            <span class="flaticon-fusion"></span>
                         </div>
                         <div class="card-cap">
                             <h5><a href="#">Fusion</a></h5>
@@ -143,9 +124,137 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-card text-center mb-50">
+                        <div class="card-icon">
+                            <span class="flaticon-philosophy"></span>
+                        </div>
+                        <div class="card-cap">
+                            <h5><a href="#">Philosophy</a></h5>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tincidunt erat eu quam
+                                tempor, quis fermentum ligula interdum. Aenean euismod lorem nec diam tincidunt
+                                dignissim.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- Section: Book - Philosophy in a Technological World -->
+    <section class="section-padding container-fluid bg-light-grey book-section">
+        <div class="row justify-content-around align-items-start book-row">
+            <div class="col-md-4  d-flex justify-content-end book-col">
+                <img src=" img/pitw.jpg" alt="Book Cover - Philosophy in a Technological World" class="img-fluid" />
+            </div>
+            <div class="col-md-6 book-col">
+                <h4 class="mb-4">Priase for <i>Philosophy in a Technological World</i></h4>
+                <figure class="mb-5">
+                    <blockquote class="blockquote book-right-quote fn-sm">
+                        <p>“A major work of philosophy by one of the UK's most original philosophers. In this
+                            beautifully written volume, James Tartaglia develops a definitive critique of contemporary
+                            materialism and original and persuasive arguments for idealism. On this basis he makes a
+                            compelling case for the role of philosophy in helping us to address our state of what he
+                            calls 'technoparalysis' – our being helpless spectators of runaway technical advance. This
+                            book is that rare thing – a book that is not only important and illuminating but also
+                            enjoyable.”</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Raymond Tallis, Emeritus Professor, University of Manchester, UK and author of <i>Seeing
+                            Ourselves: Reclaiming Humanity from God and Science</i>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <blockquote class="blockquote book-right-quote fn-sm">
+                        <p>“There can be no question that our lives are dominated by technology, that we live in a
+                            technological world. But few philosophers these days address the question of what this means
+                            for us, and what philosophical world view it generates or presupposes. This is a highly
+                            original attempt to answer these questions. Tartaglia identifies materialism as the doctrine
+                            which sustains the technology-based vision of life today, and he challenges materialism in
+                            original and inventive ways.”</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Tim Crane, Professor of Philosophy, Central European University, Austria
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Book - Philosophy in a Meaningless Life -->
+    <section class="section-padding container-fluid book-section bg-dark-grey">
+        <div class="row justify-content-around align-items-start flex-row-reverse">
+            <div class="col-md-4 d-flex justify-content-start">
+                <img src="img/pml.jpg" alt="Book Cover - Philosophy in a Meaningless Life" class="img-fluid" />
+            </div>
+            <div class="col-md-6 text-end">
+                <h4 class="mb-4">Praise for <i>Philosophy in a Meaningless Life</i></h4>
+                <figure class="mb-5">
+                    <blockquote class="blockquote book-left-quote fn-sm">
+                        <p>“Tartaglia's book is an intriguing contribution to the ongoing philosophical discussion
+                            regarding the meaning (or meaninglessness) of life, written in a lucid and engaging style.”
+                        </p>
+                    </blockquote>
+                    <footer class="blockquote-footer d-flex justify-content-end">
+                        <cite title="Source Title">Notre Dame Philosophical Review</cite>
+                    </footer>
+                </figure>
+
+                <figure>
+                    <blockquote class="blockquote book-left-quote fn-sm">
+                        <p>“A fascinating book. It is refreshing to read a well-written book of contemporary philosophy
+                            that puts the question of the meaning of life at its very centre and at the very centre of
+                            philosophy itself. The argument rests on a huge amount of reading and learning, lightly
+                            worn. And, in particular, in highlighting the difference between meaning (significance) in
+                            life and the meaning of life Tartaglia has done any philosopher who thinks about either of
+                            these things a great favour. He makes a very persuasive case that recent discussions have
+                            equivocated between these two different concepts. And he may well be right that this
+                            equivocation has been motivated by a fear of nihilism.”</p>
+                    </blockquote>
+                    <footer class="blockquote-footer d-flex justify-content-end">
+                        <cite title="Source Title">International Journal of Philosophical Studies</cite>
+                    </footer>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-area">
+        <div class="container">
+            <div class="footer-bottom">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-xl-4 col-lg-3 text-center">
+                        <div class="footer-copy-right">
+                            <p>
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                | All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-3 text-center">
+                        <div class="footer-copy-right">
+                            <p>
+                                Website by Adam Kimberley
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 text-center">
+                        <div class="footer-social f-right">
+                            <a>Social:</a>
+                            <a href="#"><img src="img/icons/GitHub-Mark-Light-32px.png" alt="Github Icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>

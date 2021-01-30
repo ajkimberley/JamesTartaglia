@@ -1,0 +1,15 @@
+.navbar-nav {
+    .nav-item{
+        margin-left: 3em;
+    }
+}
+
+.slide-from-right {
+    position: relative;
+    animation: slideLeft 1s;
+}
+
+.slide-from-left {
+    position: relative;
+    animation: slideRight 1s;
+}

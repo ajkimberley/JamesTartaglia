@@ -28,6 +28,8 @@ $custom-colors: (
   "theme-7": $theme-color-7,
   "theme-8": $theme-color-8,
   "theme-9": $theme-color-9,
+  "dark-blue": $dark-blue,
+  "pale-blue": $pale-blue
 );
 $theme-colors: map.merge($theme-colors, $custom-colors);
 

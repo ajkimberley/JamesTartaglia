@@ -4,6 +4,7 @@
     .single-card{
         border: 1px solid #e1ebf7;
         border-radius: 6px;
+        height: 500px;
         padding: 61px 22px;
         @include transition(.4s);
         position: relative;
@@ -23,7 +24,7 @@
         }
         .card-icon{
             span{
-                color: $primary;
+                color: $accent;
                 font-size: 50px;
                 margin-bottom: 30px;
                 display: block;

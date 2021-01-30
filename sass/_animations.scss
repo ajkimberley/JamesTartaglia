@@ -1,0 +1,56 @@
+/* ------ Fade In ------ */
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* ------ Slide Left ------ */
+@keyframes slideLeft {
+    from {left: 100px;}
+    to {left: 0px;}
+}
+@-moz-keyframes slideLeft {
+    from {left: 100px;}
+    to {left: 0px;}
+}
+@-webkit-keyframes slideLeft {
+    from {left: 100px;}
+    to {left: 0px;}
+}
+@-ms-keyframes slideLeft {
+    from {left: 100px;}
+    to {left: 0px;}
+}
+
+/* ------ Slight Right ------*/
+@keyframes slideRight {
+    from {right: 100px;}
+    to {right: 0px;}
+}
+@-moz-keyframes slideRight {
+    from {right: 100px;}
+    to {right: 0px;}
+}
+@-webkit-keyframes slideRight {
+    from {right: 100px;}
+    to {right: 0px;}
+}
+@-ms-keyframes slideRight {
+    from {right: 100px;}
+    to {right: 0px;}
+}
