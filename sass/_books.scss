@@ -1,0 +1,21 @@
+hr  {
+    width: 50%;
+    border-top: 2px solid $accent;
+    margin: 0 auto;
+}
+
+.pitw-img {
+    max-height: 500px;
+}
+
+.pitw-container {
+    max-height: 890px;
+}
+
+.pitw-quote {
+    min-height: 150px;
+    p {
+        font-style: italic;
+        font-size: medium;
+    }
+}

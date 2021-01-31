@@ -12194,15 +12194,6 @@ textarea.form-control-lg {
 /* ------ Element Styles ------ */
 body {
   margin-top: 106px;
-  -webkit-animation: fadein 2s;
-  /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 2s;
-  /* Firefox < 16 */
-  -ms-animation: fadein 2s;
-  /* Internet Explorer */
-  -o-animation: fadein 2s;
-  /* Opera < 12.1 */
-  animation: fadein 2s;
 }
 
 body, html {
@@ -12360,16 +12351,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 
 .navbar-nav .nav-item {
   margin-left: 3em;
-}
-
-.slide-from-right {
-  position: relative;
-  animation: slideLeft 1s;
-}
-
-.slide-from-left {
-  position: relative;
-  animation: slideRight 1s;
 }
 
 .footer-area {
@@ -12557,6 +12538,28 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 .cards-area .single-card:hover .card-cap a {
   color: #fff;
+}
+
+hr {
+  width: 50%;
+  border-top: 2px solid #619CA2;
+  margin: 0 auto;
+}
+
+.pitw-img {
+  max-height: 500px;
+}
+
+.pitw-container {
+  max-height: 890px;
+}
+
+.pitw-quote {
+  min-height: 150px;
+}
+.pitw-quote p {
+  font-style: italic;
+  font-size: medium;
 }
 
 /*# sourceMappingURL=style.css.map */

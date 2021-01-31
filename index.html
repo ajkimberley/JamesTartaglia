@@ -15,6 +15,7 @@
     <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="font/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
@@ -52,7 +53,7 @@
                             Philosophy
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Books</a>
+                            <a class="dropdown-item" href="books.html">Books</a>
                             <a class="dropdown-item" href="#">Papers</a>
                             <a class="dropdown-item" href="#">Resaerch</a>
                         </div>
@@ -95,8 +96,8 @@
         <div class="container cards-area">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-card text-center mb-50">
-                        <div class="card-icon">
+                    <div class="single-card text-center mb-50" data-aos="flip-up" data-aos-delay="100">
+                        <div class=" card-icon">
                             <span class="flaticon-saxophone"></span>
                         </div>
                         <div class="card-cap">
@@ -110,7 +111,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-card text-center mb-50">
+                    <div class="single-card text-center mb-50" data-aos="flip-up" data-aos-delay="200">
                         <div class="card-icon">
                             <span class="flaticon-fusion"></span>
                         </div>
@@ -125,7 +126,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="single-card text-center mb-50">
+                    <div class="single-card text-center mb-50" data-aos="flip-up" data-aos-delay="300">
                         <div class="card-icon">
                             <span class="flaticon-philosophy"></span>
                         </div>
@@ -149,7 +150,7 @@
             <div class="col-md-4  d-flex justify-content-end book-col">
                 <img src=" img/pitw.jpg" alt="Book Cover - Philosophy in a Technological World" class="img-fluid" />
             </div>
-            <div class="col-md-6 book-col">
+            <div class="col-md-6 book-col" data-aos="fade-left">
                 <h4 class="mb-4">Priase for <i>Philosophy in a Technological World</i></h4>
                 <figure class="mb-5">
                     <blockquote class="blockquote book-right-quote fn-sm">
@@ -190,8 +191,8 @@
             <div class="col-md-4 d-flex justify-content-start">
                 <img src="img/pml.jpg" alt="Book Cover - Philosophy in a Meaningless Life" class="img-fluid" />
             </div>
-            <div class="col-md-6 text-end">
-                <h4 class="mb-4">Praise for <i>Philosophy in a Meaningless Life</i></h4>
+            <div class="col-md-6 text-end" data-aos="fade-right">
+                <h4 class=" mb-4">Praise for <i>Philosophy in a Meaningless Life</i></h4>
                 <figure class="mb-5">
                     <blockquote class="blockquote book-left-quote fn-sm">
                         <p>“Tartaglia's book is an intriguing contribution to the ongoing philosophical discussion
@@ -261,6 +262,11 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
