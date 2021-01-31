@@ -12583,4 +12583,17 @@ hr {
   font-size: medium;
 }
 
+.accordion-button:not(.collapsed) {
+  color: inherit !important;
+  background-color: inherit !important;
+}
+
+.articles-section {
+  padding: 50px 50px;
+}
+
+.papers-accordian p {
+  margin: 0;
+}
+
 /*# sourceMappingURL=style.css.map */
