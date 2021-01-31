@@ -12327,6 +12327,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   min-height: 500px;
 }
 
+.book-section {
+  overflow-x: hidden;
+}
 .book-section .row div[class*=col-] h4, .book-section .row div[class*=col-] .h4 {
   color: #1c165c;
 }
@@ -12546,12 +12549,30 @@ hr {
   margin: 0 auto;
 }
 
-.pitw-img {
+.title-section {
+  background-color: #000000af;
+}
+.title-section h1, .title-section .h1 {
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.large-book-container {
+  max-height: 890px;
+  padding: 50px 0;
+}
+
+.small-book-container {
+  padding: 50px 0;
+  min-height: 250px;
+}
+
+.large-cover-img {
   max-height: 500px;
 }
 
-.pitw-container {
-  max-height: 890px;
+.small-cover-img {
+  max-height: 250px;
 }
 
 .pitw-quote {

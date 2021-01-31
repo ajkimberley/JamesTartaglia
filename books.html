@@ -35,7 +35,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="myNavbar">
                 <div class="navbar-nav w-75 justify-content-end slide-from-right">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="index.html">Home</a>
                     <span class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,7 +53,7 @@
                             Philosophy
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Books</a>
+                            <a class="dropdown-item active" href="#">Books <span class="sr-only">(current)</span></a>
                             <a class="dropdown-item" href="#">Papers</a>
                             <a class="dropdown-item" href="#">Resaerch</a>
                         </div>
@@ -61,24 +61,29 @@
                     <a class="nav-item nav-link" href="#">Contact</a>
                 </div>
             </div>
+        </div>
     </nav>
 
-    <!-- Title Section -->
-    <section class="container-fluid">
-        <div class="row d-flex align-items-center">
-            <h1 class="my-5 ms-3 display-1">Books:</h1>
+    <!-- Banner -->
+    <div class="container-fluid banner h-25">
+        <!-- Title -->
+        <div class="row h-100 d-flex justify-content-center align-items-center text-center title-section">
+            <div class="col">
+                <h1 class="my-5 display-1">Books</h1>
+            </div>
         </div>
-    </section>
+    </div>
 
     <!-- Philosophy in a Techno World -->
-    <section class="container-fluid pitw-container">
-        <div class="row">
+    <section class="container-fluid large-book-container bg-dark-grey">
+        <div class="row bs-x-gutter-0">
             <div class="col-4 d-flex justify-content-center">
-                <img src="img/pitw.jpg" class="pitw-img" alt="Philosophy in a Technological World: Book Cover" />
+                <img src="img/pitw.jpg" class="large-cover-img"
+                    alt="Book cover for Philosophy in a Technological World" />
             </div>
             <div class="col-6 d-flex flex-column align-items-start">
                 <h2 class="text-dark-blue">Philosophy in a Technological World:</h2>
-                <h4 class="text-dark-grey text-uppercase">Gods and Titans</h4>
+                <h4 class="text-light-grey text-uppercase">Gods and Titans</h4>
                 <p>
                     Philosophy has come to seem like a specialist interest with little or no influence on our lives. On
                     the contrary, argues James Tartaglia, it was the philosophy of materialism which taught us to turn
@@ -133,30 +138,14 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-end mt-2">
-            <div class="col-9">
-
-            </div>
-        </div>
-    </section>
-
-    <section class="container-fluid pitw-container">
-        <div class="row">
-            <div class="col-4 d-flex justify-content-center">
-                <img src="img/pitw.jpg" class="pitw-img" alt="Philosophy in a Technological World: Book Cover" />
-            </div>
-            <div class="col-6 d-flex flex-column align-items-start">
-                <h2 class="text-dark-blue">Philosophy in a Technological World:</h2>
-                <h4 class="text-dark-grey text-uppercase">Gods and Titans</h4>
-            </div>
-        </div>
     </section>
 
     <!-- Philosophy in a Meaningless Life -->
-    <section class="container-fluid section-padding">
-        <div class="row">
+    <section class="container-fluid large-book-container">
+        <div class="row flex-row-reverse bs-x-gutter-0">
             <div class="col-4 d-flex justify-content-center">
-                <img src="img/pml.jpg" alt="Philosophy in a Technological World: Book Cover" />
+                <img src="img/pml.jpg" class="large-cover-image"
+                    alt="Book cover for Philosophy in a Meaningless Life" />
             </div>
             <div class="col-6 d-flex flex-column align-items-start">
                 <h2 class="text-dark-blue">Philosophy in a Meaningless Life:</h2>
@@ -172,6 +161,7 @@
                     nihilism (‘we are here with nothing to do’), and uses transcendence both to provide a new solution
                     to the problem of consciousness, and to explain away perplexities about time and universals.
                 </p>
+                <hr class="mt-4">
                 <div id="pimlCarousel" class="carousel slide carousel-dark mt-4" data-bs-ride="carousel">
                     <div class="carousel-inner m-auto h-100 w-75 d-flex align-items-center">
                         <div class="carousel-item active">
@@ -209,6 +199,131 @@
                         <span class="visually-hidden">Next</span>
                     </a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophical Defence of Nihilism -->
+    <section class="container-fluid small-book-container bg-dark-grey">
+        <div class="row">
+            <div class="col-4 d-flex justify-content-center">
+                <img src="img/pdon.jpg" class="small-cover-img" alt="Book cover for A Defence of Nihilism" />
+            </div>
+            <div class="col-6 d-flex flex-column align-items-start">
+                <h2 class="text-dark-blue">A Defence of Nihilism</h2>
+                <p>Nihilism has received a grossly misleading press, in our view. Far from being a problem
+                    that needs to be overcome, we will argue that it is an insightful and morally anodyne
+                    philosophical outlook on the world; one which allows us to take a cosmic perspective on
+                    our lives without making religious presuppositions. As such, our objective in this short
+                    book will be to rehabilitate nihilism’s public image. If we can achieve this, we think a
+                    significant barrier of misunderstanding between religious believers and atheists will
+                    have been removed.</p>
+                <hr class="mt-4">
+            </div>
+        </div>
+    </section>
+
+    <!-- The Meaning of Life and The Great Philosophers -->
+    <section class="container-fluid small-book-container">
+        <div class="row flex-row-reverse">
+            <div class="col-4 d-flex justify-content-center">
+                <img src="img/mlgp.jpg" class="small-cover-img"
+                    alt="Book cover for The Meaning of Life and The Great Philosophers" />
+            </div>
+            <div class="col-6 d-flex flex-column">
+                <h2 class="text-dark-blue">The Meaning of Life and The Great Philosophers</h2>
+                <p>This book reveals how great philosophers of the past sought to answer the question of the meaning of
+                    life. It contains thirty-five chapters which each focus on a major philosophical figure, from
+                    Confucius to Rorty, to imaginatively engage with the topic from that philosopher’s perspective. This
+                    volume also contains a Postscript (‘The Blue Flower’) on the historical origins and original
+                    significance of the phrase ‘the meaning of life’.</p>
+                <hr class="mt-4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Nihilism and The Meaning of Life -->
+    <section class="container-fluid small-book-container bg-dark-grey">
+        <div class="row">
+            <div class="col-4 d-flex justify-content-center">
+                <img src="img/nml.jpg" class="small-cover-img" alt="Book cover for Nihilism and the Meaning of Life" />
+            </div>
+            <div class="col-6 d-flex flex-column align-items-start">
+                <h2 class="text-dark-blue">Nihilism and the Meaning of Life:</h2>
+                <h4 class="text-light-grey">A Philosophical Dialogue with James Tartaglia</h4>
+                <p>Ten philosophers reflect on Tartaglia’s Philosophy in a Meaningless Life. Contains the author’s
+                    replies and a new essay entitled 'Nihilism and the Meaning of Life'.</p>
+                <hr class="mt-4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Consciousness and the Great Philosophers -->
+    <section class="container-fluid small-book-container">
+        <div class="row flex-row-reverse">
+            <div class="col-4 d-flex justify-content-center">
+                <img src="img/cagp.jpg" class="small-cover-img"
+                    alt="Book cover for Consciousness and the Great Philosophers" />
+            </div>
+            <div class="col-6 d-flex flex-column">
+                <h2 class="text-dark-blue">Consciousness and the Great Philosophers</h2>
+                <p>This book addresses the question of how the great philosophers of the past might have reacted to the
+                    contemporary problem of consciousness. Each of the thirty-two chapters within this edited collection
+                    focuses on a major philosophical figure from the history of philosophy, from Anscombe to Xuanzang,
+                    and imaginatively engages with the problem from their perspective.</p>
+                <hr class="mt-4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Mind, Language, and Metaphilosophy: Early Philosophical Papers -->
+    <section class="container-fluid small-book-container bg-dark-grey">
+        <div class="row">
+            <div class="col-4 d-flex justify-content-center">
+                <img src="img/mlm.jpg" class="small-cover-img"
+                    alt="Book cover for Mind, Language, and Metaphilosophy: Early Philosophical Papers" />
+            </div>
+            <div class="col-6 d-flex flex-column align-items-start">
+                <h2 class="text-dark-blue">Mind, Language, and Metaphilosophy:</h2>
+                <h4 class="text-light-grey">Early Philosophical Papers</h4>
+                <p>This volume presents a selection of essays which Richard Rorty wrote during the first decade of his
+                    career (1961-72). The introduction examines Rorty's philosophical development during this period.
+                </p>
+                <hr class="mt-4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Richard Rorty: Critical Assessments of Leading Philosophers -->
+    <section class="container-fluid small-book-container">
+        <div class="row flex-row-reverse">
+            <div class="col-4 d-flex justify-content-center">
+                <img src="img/calp.jpg" class="small-cover-img"
+                    alt="Book cover for Richard Rorty: Critical Assessments of Leading Philosophers" />
+            </div>
+            <div class="col-6 d-flex flex-column">
+                <h2 class="text-dark-blue">Richard Rorty:</h2>
+                <h4 class="text-dark-grey">Critical Assessments of Leading Philosophers</h4>
+                <p>A four-volume survey of Rorty scholarship, with the articles organised by theme. Contains my essay
+                    ‘Are Causal Pressures a part of the Way the World Is?’
+                </p>
+                <hr class="mt-4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Rorty and the Mirror of Nature -->
+    <section class="container-fluid small-book-container bg-dark-grey">
+        <div class="row">
+            <div class="col-4 d-flex justify-content-center">
+                <img src="img/ramn.jpg" class="small-cover-img" alt="Book cover for Rorty & The Mirror of Nature" />
+            </div>
+            <div class="col-6 d-flex flex-column align-items-start">
+                <h2 class="text-dark-blue">Rorty and the Mirror of Nature</h2>
+                <p>Explains Rorty’s Philosophy and the Mirror of Nature (1979), chapter by chapter; contains plenty of
+                    criticism, too.
+                </p>
+                <hr class="mt-4">
             </div>
         </div>
     </section>
