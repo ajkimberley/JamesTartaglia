@@ -12498,7 +12498,7 @@ hr {
 }
 
 .title-section {
-  background-color: #000000af;
+  background-color: #00000041;
 }
 .title-section h1, .title-section .h1 {
   color: #ffffff;
@@ -12529,6 +12529,11 @@ hr {
 .pitw-quote p {
   font-style: italic;
   font-size: medium;
+}
+
+.ramn-height {
+  margin-top: 1px;
+  height: 248.5px;
 }
 
 .accordion-button:not(.collapsed) {
