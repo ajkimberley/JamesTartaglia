@@ -12507,12 +12507,14 @@ hr {
 
 .large-book-container {
   max-height: 890px;
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .small-book-container {
-  padding: 50px 0;
   min-height: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .large-cover-img {
@@ -12547,6 +12549,10 @@ hr {
 
 .papers-accordian p {
   margin: 0;
+}
+
+.track-container audio {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
