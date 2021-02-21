@@ -12538,6 +12538,10 @@ hr {
   height: 248.5px;
 }
 
+.pmlModal {
+  max-width: 650px !important;
+}
+
 .accordion-button:not(.collapsed) {
   color: inherit !important;
   background-color: inherit !important;
