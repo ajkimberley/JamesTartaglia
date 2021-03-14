@@ -12356,6 +12356,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   margin-left: 3em;
 }
 
+.navbar-toggler {
+  margin-right: 70px;
+}
+
 .footer-area {
   background: #080827;
 }
@@ -12506,9 +12510,10 @@ hr {
 }
 
 .large-book-container {
-  max-height: 890px;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .small-book-container {
