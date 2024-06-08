@@ -2,21 +2,20 @@
 @import 'animations';
 
 .banner {
-    background: radial-gradient(
-        ellipse at center,
-        rgba(0, 0, 0, 0) 15%,
-        rgba(0, 0, 0, 0.5) 50%,
-        rgba(0, 0, 0, 1) 100%
-    ),
-    url("../img/Banner_Alt.png  ") no-repeat center center scroll;
+    background: radial-gradient(ellipse at center,
+            rgba(0, 0, 0, 0) 15%,
+            rgba(0, 0, 0, 0.5) 50%,
+            rgba(0, 0, 0, 1) 100%),
+        url("../img/Banner_Alt.png  ") no-repeat center center scroll;
     background-repeat: no-repeat;
     min-height: 300px;
 }
 
 .book-section {
     overflow-x: hidden;
-    .row{
-        div[class*="col-"]{
+
+    .row {
+        div[class*="col-"] {
             h4 {
                 color: #1c165c;
             }
@@ -27,6 +26,7 @@
 .book-left-quote {
     padding-right: 20px;
     border-right: 2px solid $accent;
+
     p {
         font-size: medium;
         color: $black;
@@ -37,8 +37,25 @@
 .book-right-quote {
     padding-left: 20px;
     border-left: 2px solid $accent;
+
     p {
         font-size: medium;
+    }
+}
+
+.book-col {
+    ul {
+        list-style-type: none;
+        padding: 10px;
+
+        li {
+            margin-top: 1em;
+
+            a {
+                font-size: 1.5em;
+                color: black;
+            }
+        }
     }
 }
 

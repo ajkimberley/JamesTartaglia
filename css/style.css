@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* ---------- Theme Colours ---------- */ /*!
+/* ---------- Theme Colours ---------- */
+/*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
@@ -11063,7 +11064,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* ------ Imports ------ */ /* ------ Fade In ------ */
+/* ------ Imports ------ */
+/* ------ Fade In ------ */
 @keyframes fadein {
   from {
     opacity: 0;
@@ -11192,7 +11194,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   border-top: 1px solid #f2f2f2;
 }
 
-/* ---------- Theme Colours ---------- */ /* ------ Fade In ------ */
+/* ---------- Theme Colours ---------- */
+/* ------ Fade In ------ */
 @keyframes fadein {
   from {
     opacity: 0;
@@ -11320,6 +11323,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 .book-right-quote p {
   font-size: medium;
+}
+
+.book-col ul {
+  list-style-type: none;
+  padding: 10px;
+}
+.book-col ul li {
+  margin-top: 1em;
+}
+.book-col ul li a {
+  font-size: 1.5em;
+  color: black;
 }
 
 .isp-text {
