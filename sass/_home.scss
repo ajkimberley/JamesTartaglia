@@ -6,7 +6,7 @@
             rgba(0, 0, 0, 0) 15%,
             rgba(0, 0, 0, 0.5) 50%,
             rgba(0, 0, 0, 1) 100%),
-        url("../img/Banner_Alt.png  ") no-repeat center center scroll;
+        url("../img/Banner_Alt.png") no-repeat center center scroll;
     background-repeat: no-repeat;
     min-height: 300px;
 }
@@ -61,4 +61,16 @@
 
 .isp-text {
     color: $isp-red;
+}
+
+.intro-link {
+    color: $dark-blue;
+    text-decoration: underline;
+    text-decoration-color: $accent;
+    text-underline-offset: 3px;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: $accent;
+    }
 }

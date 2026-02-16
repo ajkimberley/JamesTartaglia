@@ -7,6 +7,67 @@
     padding: 50px 50px;
 }
 
+.media-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.media-link {
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+
+    a {
+        font-family: 'Rufina', serif;
+        font-size: 1.2rem;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    // Odd items: left border, left-aligned
+    &:nth-child(odd) {
+        border-left: 3px solid $accent;
+        text-align: left;
+
+        a {
+            color: $dark-blue;
+        }
+
+        &:hover {
+            border-left-width: 5px;
+
+            a {
+                color: $accent;
+            }
+        }
+    }
+
+    // Even items: right border, right-aligned, subtle background tint
+    &:nth-child(even) {
+        border-right: 3px solid $dark-blue;
+        text-align: right;
+        background-color: rgba(0, 0, 0, 0.025);
+
+        a {
+            color: $accent;
+        }
+
+        &:hover {
+            border-right-width: 5px;
+
+            a {
+                color: $dark-blue;
+            }
+        }
+    }
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+}
+
 .papers-accordian {
     p {
         margin: 0;
