@@ -5,5 +5,9 @@ working-files
 node_modules
 dist
 .cache
+.parcel-cache
 JamesTartaglia.com.docx
 audio
+css/style.css
+css/style.css.map
+REVIEW.md

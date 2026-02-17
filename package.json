@@ -5,18 +5,19 @@
   "license": "UNLICENSED",
   "author": "Adam Kimberley",
   "scripts": {
-    "build": "parcel build index.html",
-    "dev": "parcel index.html --open",
-    "start": "npm run build && npm run dev",
-    "watch": "sass sass/style.scss:css/style.css --watch",
+    "dev": "parcel index.html jazz.html philosophy.html media.html --open",
+    "build": "parcel build index.html jazz.html philosophy.html media.html 404.html",
+    "sass": "sass sass/style.scss:css/style.css --watch",
+    "sass:build": "sass sass/style.scss css/style.css",
+    "clean": "rimraf dist .parcel-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
+    "parcel": "^2.16.4",
     "sass": "^1.77.4"
   },
   "dependencies": {
-    "@popperjs/core": "^2.6.0",
-    "bootstrap": "5.0.0-beta1"
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3"
   }
 }

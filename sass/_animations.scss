@@ -1,56 +1,34 @@
 /* ------ Fade In ------ */
 @keyframes fadein {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-@-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
 /* ------ Slide Left ------ */
 @keyframes slideLeft {
-    from {left: 100px;}
-    to {left: 0px;}
-}
-@-moz-keyframes slideLeft {
-    from {left: 100px;}
-    to {left: 0px;}
-}
-@-webkit-keyframes slideLeft {
-    from {left: 100px;}
-    to {left: 0px;}
-}
-@-ms-keyframes slideLeft {
-    from {left: 100px;}
-    to {left: 0px;}
+    from { left: 100px; }
+    to   { left: 0; }
 }
 
-/* ------ Slight Right ------*/
+/* ------ Slide Right ------ */
 @keyframes slideRight {
-    from {right: 100px;}
-    to {right: 0px;}
+    from { right: 100px; }
+    to   { right: 0; }
 }
-@-moz-keyframes slideRight {
-    from {right: 100px;}
-    to {right: 0px;}
-}
-@-webkit-keyframes slideRight {
-    from {right: 100px;}
-    to {right: 0px;}
-}
-@-ms-keyframes slideRight {
-    from {right: 100px;}
-    to {right: 0px;}
+
+/* ------ Reduced motion ------ */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    [data-aos] {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+    }
 }
